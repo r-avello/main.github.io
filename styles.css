@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: #ddd;
+}
+
+.header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.main-section {
+    background-color: black;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para pantallas más pequeñas (por ejemplo, teléfonos móviles) */
+@media screen and (max-width: 768px) {
+    .menu ul {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .menu ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .main-section {
+        padding: 80px 10px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+}
+
